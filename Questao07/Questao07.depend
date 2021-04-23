@@ -1,5 +1,6 @@
 # depslib dependency file v1.0
-1618794396 source:c:\users\loham\documents\github\lista03\questao07\main.cpp
+1619219930 source:c:\users\loham\documents\github\lista03\questao07\main.cpp
 	<iostream>
 	<vector>
+	<numeric>
 
