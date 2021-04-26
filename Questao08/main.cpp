@@ -20,6 +20,7 @@ void mostraVetor(vector <int> v){
 void encontraMediana(vector <int> med){
 int mediana;
 
+if ((med.size()%2) == 1){
 
 cout << "Vetor : ";
 mostraVetor(med);
@@ -85,6 +86,41 @@ mostraVetor(med);
     encontraMediana(v_med); //passa para a funcao recursiva o vetor de medianas encontradas.
 
     }
+} else {
+   /* cout << "Vetor : ";
+    mostraVetor(med);
+
+    vector <int> vet1; //declaração da 1ª parte do vetor
+    vector <int> vet2; //declaração da 2ª parte do vetor
+
+    int divisao = med.size()/2; //pega a quantidade de itens que terá cada vetor
+    int fim_vet1 = divisao; //encontra o fim do vetor 1
+    int inicio_vet2 = fim_vet1; //encontra o inicio do vetor 2
+    int fim_vet2 = med.size();//encontra o fim do vetor 2
+
+
+     for (int i=0; i<fim_vet1; i++){
+        vet1.push_back(med[i]); //popula  a 1ª parte do vetor
+    }
+
+
+    for (int i=inicio_vet2; i<fim_vet2; i++){
+       vet2.push_back(med[i]); //popula  a 2ª parte do vetor
+    }
+
+    cout << "vetor 1 ordenado: ";
+    sort(vet1.begin(), vet1.end());
+    mostraVetor(vet1);
+
+    cout << "vetor 2 ordenado: ";
+    sort(vet2.begin(), vet2.end());
+    mostraVetor(vet2);
+
+    cout << "A mediana e: " << (vet1[fim_vet1-1] + vet2[inicio_vet2])/2;*/
+
+}
+
+
 
 }
 
